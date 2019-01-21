@@ -1,6 +1,6 @@
 .header__text{
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'OpenSans';
   color: var(--header-text-color);
   letter-spacing: -0.35px;
 }
@@ -44,4 +44,5 @@
 }
 .header__greating img {
   vertical-align: middle;
+  cursor: pointer;
 }

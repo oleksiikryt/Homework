@@ -1,0 +1,45 @@
+.navbar__logo {
+  margin-left: 120px
+}
+
+
+.navbar__item-container {
+  margin-left: 60px;
+}
+
+.navbar__item-container .navbar__item {
+  text-decoration: none;
+  color: #1A1A1A;
+  margin-right: 30px;
+  line-height: 22px;
+  font-family: 'OpenSans-SemiBold';
+  font-size: 16px;
+  letter-spacing: -0.2px;
+}
+
+.navbar__dropdown {
+  margin-left: 145px;
+}
+
+.navbar__dropdown * {
+  vertical-align: middle;
+  color: #1A1A1A;
+  font-family: 'OpenSans-Bold';
+  font-size: 14px;
+  letter-spacing: -0.2px;
+}
+
+.navbar__dropdown *:last-child {
+  cursor: pointer;
+}
+
+.navbar__logout-button {
+  width: 101px;
+  height: 34px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  background-color: #01BC7E;
+  color: #FFFFFF;
+  margin-left: 30px;
+}

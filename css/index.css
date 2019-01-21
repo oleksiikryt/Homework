@@ -1,2 +1,19 @@
 @import "index-layout.css";
 @import "index-header.css";
+@import "index-navbar.css";
+
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}
