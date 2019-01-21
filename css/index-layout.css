@@ -1,7 +1,11 @@
 :root {
-    width:1200px;
   --header-text-color: #FFFFFF;
 }
+
+body {
+  width:1200px;
+}
+
 header, nav {
   display: flex;
   align-items: center;
@@ -17,6 +21,6 @@ nav {
 }
 
 article {
-  height: 200px;
-  background-color: blue;
+  overflow: hidden;
+  /* background-color: yellow; */
 }
