@@ -1,0 +1,16 @@
+:root {
+  --header-text-color: #FFFFFF;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(#193F63, #10395F);
+  width:1200px;
+  height: 44px;
+}
+
+nav {
+  width:1200px;
+  height: 74px;
+}

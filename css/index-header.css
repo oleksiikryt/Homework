@@ -1,0 +1,47 @@
+.header__text{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--header-text-color);
+  letter-spacing: -0.35px;
+}
+
+/*====================*/
+
+.header__follow-item {
+  margin-left: 675px;
+  padding-right: 6px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header__follow-item * {
+  margin-right:  14px;
+  vertical-align: middle;
+}
+
+.header__follow-item .facebook-logo {
+  height: 17px;
+}
+
+.header__follow-item .twitter-logo {
+  height: 15px;
+}
+
+.header__follow-item .utube-logo {
+  height: 12px;
+}
+
+/*====================*/
+
+.header__help {
+  padding: 0 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/*====================*/
+
+.header__greating {
+  padding:  0 20px;
+}
+.header__greating img {
+  vertical-align: middle;
+}
