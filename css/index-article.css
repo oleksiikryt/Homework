@@ -30,6 +30,7 @@
 
 .article__paragraph {
   margin: 10px 0 0 0;
+  padding-bottom: 11px;
   font-family: 'OpenSans';
   font-size: 16px;
   line-height: 24px;
