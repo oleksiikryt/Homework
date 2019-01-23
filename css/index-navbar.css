@@ -68,14 +68,18 @@
   }
 
   .navbar__dropdown-cubes {
-    position: absolute;
+    margin: 0;
+    position: relative;
     right: 14px;
   }
 
 
   .navbar__hamburger-button {
     display: inline;
-    position: absolute;
+    position: relative;
+    padding: 0;
+    border: none;
+    background-color: #FFFFFF;
     left: 16px;
     width: 16px;
     height: 15px;
@@ -83,6 +87,8 @@
   }
 
   .navbar__logo {
+    position: relative;
+    top: 2px;
     margin-left: 0;
     width: 90px;
     height: 19.2px;

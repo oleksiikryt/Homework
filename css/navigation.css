@@ -11,8 +11,9 @@
 .m-navigation__top-panel {
   width: 100%;
   display: flex;
-  margin-top: 13px;
+  height: 47px;
   justify-content: space-between;
+  align-items: center;
   overflow: hidden;
 }
 
@@ -20,7 +21,6 @@
   position: relative;
   height: 14px;
   left: 17px;
-  top: 2.5px;
   padding: 0;
   border: none;
   background-color: #FFFFFF;
@@ -28,7 +28,11 @@
 
 .m-navigation__logo-image {
   position: relative;
-  top: 2px;
+  margin-left: 0;
+  width: 90px;
+  height: 19.2px;
+  background-image: url("../icons/Logo S.svg");
+  background-position: center;
 }
 
 .m-navigation__user-avatar {
@@ -39,7 +43,7 @@
 
 
 .m-navigation__menu {
-  margin-top: 123px;
+  margin-top: 110px;
   display: flex;
   flex-direction: column;
   height: 196px;

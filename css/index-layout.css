@@ -8,14 +8,15 @@ body {
   width:1200px;
 }
 
-header, nav {
-  display: flex;
-  align-items: center;
-}
 
 header {
   background-image: linear-gradient(#193F63, #10395F);
   height: 44px;
+}
+
+header, nav {
+  display: flex;
+  align-items: center;
 }
 
 nav {
@@ -49,9 +50,11 @@ footer {
 
   nav {
     position: relative;
-    justify-content: center;
+    justify-content: space-between;
     height: 47px;
+    overflow: hidden;
   }
+
   footer {
     margin-top: 16px;
     margin-bottom: 9px;
