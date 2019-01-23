@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>MyHomework</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navigation.css">
   </head>
-  <body>
-    <header>
 
+
+  <body>
+
+
+
+    <header>
         <span class="header__follow-item">
           <span class="header__text">Follow us!</span>
           <img class="facebook-logo" src="icons/fb.svg" alt="facebook-logo" >
@@ -22,12 +28,14 @@
           <b>Hello, User Name!</b>
           <img src="icons/down.svg" alt="dropdown-icon">
         </span>
-
     </header>
 
-    <nav class="navbar">
 
-          <img class="navbar__logo" src="icons/Logo.svg" alt="logoName">
+
+    <nav class="navbar">
+          <button class="navbar__hamburger-button"></button>
+
+          <div class="navbar__logo"></div>
 
           <span class="navbar__item-container">
             <a class="navbar__item" href="#">Item One</a>
@@ -36,53 +44,113 @@
             <a class="navbar__item" href="#">Item Four</a>
           </span>
 
-          <span class="navbar__dropdown">
-            <img src="icons/Icon.svg" alt="cubes">
+
+          <img class="navbar__dropdown-cubes" src="icons/Icon.svg" alt="cubes">
+
+          <span class="navbar__dropdown-dropdown">
             <span>Dropdown</span>
             <img src="icons/down-black.svg" alt="dropdown-icon">
           </span>
 
-          <button class="navbar__logout-button" type="button" name="button">
-            LOGOUT
+
+          <button class="navbar__logout-button" type="button">
+            <span>LOGOUT</span>
             <img src="icons/lg.svg" alt="logout">
           </button>
-
     </nav>
 
-    <article>
-       <div class="article__image">
-         <img  src="images/photo.png" alt="stairs">
-       </div>
 
-       <div class="article__text">
-         <h1 class="article__heading">Lorem Ipsum Dolor</h1>
-         <p class="article__paragraph">Vestibulum vehicula molestie augue, et suscipit risus ullamcorper ut.
-            Ut felis lacus,laoreet a vehicula vitae, pulvinar iaculis est.
-            Maecenas semper purus fringilla diam posuere, vel lacinia mi convallis.
-            Proin euismod turpis orci, ut consectetur sem accumsan vel.
-            Donec eu metus nec dolor venenatis ullamcorper. Duis eu ultrices elit.
-            Suspendisse gravida urna quis mi efficitur elementum.
-            Curabitur sagittis purus id nulla rhoncus, sit amet facilisis elit lacinia.
-            Nunc turpis risus, accumsan ac sapien at, molestie malesuada eros.
-            Fusce hendrerit rhoncus sapien at viverra.
-          </p>
-       </div>
-    </article>
 
-    <footer>
-      <p class="footer-text__paragraph">
-      Mauris pretium ipsum in orci euismod pharetra sit amet eget orci. Integer tincidunt accumsan
-      lectus, dictum scelerisque dolor ullamcorper sed. Quisque commodo elit non lectus maximus,
-       a consequat orci cursus. Nunc malesuada quam id leo lacinia blandit. Praesent feugiat dolor
-                          vitae lectus sagittis, sit amet facilisis ipsum accumsan.
-       </p>
-<div class="footer__copyright">
-  <span>
-    Copyright © 2018
-  </span>
-</div>
+    <section>
+      <article>
+         <div class="article__image">
+           <img  src="images/photo.png" alt="stairs">
+         </div>
 
-    </footer>
+         <div class="article__text">
+           <h1 class="article__heading">Lorem Ipsum Dolor</h1>
+           <p class="article__paragraph">Vestibulum vehicula molestie augue, et suscipit risus ullamcorper ut.
+              Ut felis lacus,laoreet a vehicula vitae, pulvinar iaculis est.
+              Maecenas semper purus fringilla diam posuere, vel lacinia mi convallis.
+              Proin euismod turpis orci, ut consectetur sem accumsan vel.
+              Donec eu metus nec dolor venenatis ullamcorper. Duis eu ultrices elit.
+              Suspendisse gravida urna quis mi efficitur elementum.
+              Curabitur sagittis purus id nulla rhoncus, sit amet facilisis elit lacinia.
+              Nunc turpis risus, accumsan ac sapien at, molestie malesuada eros.
+              Fusce hendrerit rhoncus sapien at viverra.
+            </p>
+         </div>
+      </article>
+
+
+
+      <footer>
+        <p class="footer-text__paragraph">
+        Mauris pretium ipsum in orci euismod pharetra sit amet eget orci. Integer tincidunt accumsan
+        lectus, dictum scelerisque dolor ullamcorper sed. Quisque commodo elit non lectus maximus,
+         a consequat orci cursus. Nunc malesuada quam id leo lacinia blandit. Praesent feugiat dolor
+                            vitae lectus sagittis, sit amet facilisis ipsum accumsan.
+        </p>
+
+        <div class="footer__copyright">
+          <span>
+            Copyright © 2018
+          </span>
+        </div>
+      </footer>
+    <section>
+
+
+
+    <template id="navigation-mobile">
+      <div class="m-navigation">
+
+        <div class="m-navigation__top-panel">
+          <button class="m-navigation__close-button" type="button"> <img src="icons/Close.svg" alt=""> </button>
+          <a class="m-navigation__logo-image" href="#"> <img src="icons/Logo S.svg" alt="logo"> </a>
+          <a class="m-navigation__user-avatar" href="#"> <img src="icons/User.svg" alt="user"> </a>
+        </div>
+
+        <div class="m-navigation__menu">
+          <a class="m-navigation__menu-item" href="#">Item One</a>
+          <a class="m-navigation__menu-item" href="#">Item Two</a>
+          <a class="m-navigation__menu-item" href="#">Item Three</a>
+          <a class="m-navigation__menu-item" href="#">Item Four</a>
+        </div>
+
+        <div class="m-navigation__helper-link">
+          <a href="#">Need Some Help?</a>
+        </div>
+
+        <div class="m-navigation__social-media">
+          <a class="m-navigation__media-item" href="#"><img src="icons/fb-blue.svg" alt="facebook"></a>
+          <a class="m-navigation__media-item" href="#"><img src="icons/tw-blue.svg" alt="twitter"></a>
+          <a class="m-navigation__media-item" href="#"><img src="icons/ut-blue.svg" alt="youtube"></a>
+        </div>
+
+        <div class="m-navigation__footer">
+          <span>Copyright © 2018</span>
+        </div>
+
+      </div>
+    </template>
+
+  <script type="text/javascript">
+    const template = document.getElementById('navigation-mobile');
+    const openMenuButt = document.getElementsByClassName('navbar__hamburger-button')[0];
+    openMenuButt.addEventListener('click', showMenu);
+
+
+    function showMenu() {
+     const navigation = template.content.cloneNode(true);
+     document.body.appendChild(navigation);
+     const hideMenuButt = document.getElementsByClassName('m-navigation__close-button')[0];
+     hideMenuButt.addEventListener('click', hideMenu);}
+
+    function hideMenu(menu) {
+     document.body.removeChild(document.getElementsByClassName('m-navigation')[0]);
+    }
+  </script>
 
   </body>
 </html>
