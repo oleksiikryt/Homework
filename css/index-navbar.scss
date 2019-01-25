@@ -20,17 +20,19 @@
 
 .navbar__item-container {
   margin-left: 60px;
+
+  .navbar__item {
+    text-decoration: none;
+    color: #1A1A1A;
+    margin-right: 28px;
+    line-height: 22px;
+    font-family: $semi;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+  }
 }
 
-.navbar__item-container .navbar__item {
-  text-decoration: none;
-  color: #1A1A1A;
-  margin-right: 28px;
-  line-height: 22px;
-  font-family: 'OpenSans-SemiBold';
-  font-size: 16px;
-  letter-spacing: -0.2px;
-}
+
 
 
 
@@ -42,16 +44,17 @@
 .navbar__dropdown-dropdown {
   position: relative;
   top: -2px;
+
+  * {
+    color: #1A1A1A;
+    font-family: $bold;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    cursor: pointer;
+  }
 }
 
-.navbar__dropdown-dropdown * {
-  /* vertical-align: middle; */
-  color: #1A1A1A;
-  font-family: 'OpenSans-Bold';
-  font-size: 14px;
-  letter-spacing: -0.2px;
-  cursor: pointer;
-}
+
 
 
 
@@ -63,17 +66,19 @@
   border: none;
   border-radius: 2px;
   background-color: #01BC7E;
-  font-family: 'OpenSans-Bold';
+  font-family: $bold;
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.2px;
   color: #FFFFFF;
   margin-left: 30px;
+
+  :last-child {
+    margin-left: 2px;
+  }
 }
 
-.navbar__logout-button :last-child {
-  margin-left: 2px;
-}
+
 
 
 @media all and (max-width: 800px) {

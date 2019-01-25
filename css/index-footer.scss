@@ -5,7 +5,7 @@
   margin-right: auto;
   position: relative;
   left: -16px;
-  font-family: 'OpenSans';
+  font-family: $norm;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.13px;
@@ -15,7 +15,7 @@
 
 .footer__copyright {
   margin: 27px 0 12px 0;
-  font-family: 'OpenSans-Bold';
+  font-family: $bold;
   text-align: center;
   color: #B0B5B5;
   font-size: 12px;
