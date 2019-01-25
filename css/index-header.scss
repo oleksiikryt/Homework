@@ -1,4 +1,4 @@
-.header__text{
+%header__text{
   font-size: 14px;
   font-family: 'OpenSans';
   color: var(--header-text-color);
@@ -12,11 +12,16 @@
   margin-left: 675px;
   padding-right: 21px;
   border-right: 1px solid rgba(255, 255, 255, 0.2);
+    span{
+      @extend %header__text;
+    }
+    * {
+      vertical-align: middle;
+    }
 }
 
-.header__follow-item * {
-  vertical-align: middle;
-}
+
+
 .facebook-logo {
   height: 17px;
   margin-left: 9px;
@@ -33,6 +38,7 @@
 
 
 .header__help {
+  @extend %header__text;
   padding: 0 21px;
   border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -40,12 +46,13 @@
 
 
 .header__greating {
+  @extend %header__text;
   padding:  0 24px;
   text-decoration: none;
   font-family: 'OpenSans-Bold';
 
-}
-.header__greating img {
-  vertical-align: middle;
-  cursor: pointer;
+    .img {
+      vertical-align: middle;
+      cursor: pointer;
+    }
 }

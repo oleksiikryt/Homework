@@ -1,0 +1,23 @@
+@import 'index-layout.scss';
+@import 'index-header.scss';
+@import 'index-navbar.scss';
+@import 'index-article.scss';
+@import 'index-footer.scss';
+
+
+
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}

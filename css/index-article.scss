@@ -5,13 +5,15 @@
  margin: 40px 30px 26px 120px;
  box-shadow: 0 22px 40px -30px rgba(5,24,17,0.98);
  border-radius: 1px;
+
+  img {
+   position: relative;
+   left: -16px;
+   height: 386px;
+  }
 }
 
-.article__image img {
-  position: relative;
-  left: -16px;
-  height: 386px;
-}
+
 
 @media all and (max-width: 800px) {
   .article__image {
@@ -20,13 +22,15 @@
     height: 209px;
     margin: 0;
     margin-top: 12px;
-  }
-  .article__image img {
 
-    position: relative;
-    left: 0;
-    height: 241px;
+   img {
+
+      position: relative;
+      left: 0;
+      height: 241px;
+    }
   }
+
 }
 
 
